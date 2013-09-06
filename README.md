@@ -3,9 +3,8 @@ Learn-ruby
 
 Learning Ruby
 
-This repo is intended to document my experinces as a beginner to Ruby.
+This repo's intention is to document a beginer's experience & eamples on Ruby.
 
-Itended to help Ruby beginners like me.
 
 DAY 1:
 
