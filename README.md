@@ -1,4 +1,4 @@
-learn-ruby
+Learn-ruby
 ==========
 
 Learning Ruby
@@ -12,7 +12,7 @@ DAY 1:
 Learning Objectives: 
 
 1. Install Ruby Version Manager on my Ubuntu 12.04 LTS
-2. Understand what a RVM can do.
+2. Understand what RVM can do.
 
 
 Install Ruby Version Manager on my Ubuntu 12.04 LTS
@@ -34,11 +34,27 @@ I've used multi user installation using the following command:
 
 sudo curl -L https://get.rvm.io | bash -s stable
 
-It has installed latest stable rvm release "rvm 1.22.3" on my ubuntu 12.04 LTS
+rvm release "rvm 1.22.3" was successfully installed on my ubuntu 12.04 LTS.
 
-Setting ruby version to be used as default.
 
-rvm use --default 1.9.3
+Install Ruby Dependencies using RVM
+========================================
+Now I tried to run "rvm requirements"
+
+I was getting an error when I run rvm requirements
+Error was something like this:
+libsqlite3-dev: Depends: libsqlite3-0 (= 3.6.22-1) but 3.7.9-2ubuntu1 is installed
+
+Solution for this is to remove ligsqlite3.7 manually and then installing libsqlite 3.6.22-1.
+
+http://packages.ubuntu.com/lucid/libsqlite3-dev
+
+Make sure to download lucid version of libsql package.
+
+Now install libsqlite and libsqlite-dev.
+
+
+
 
 
 
