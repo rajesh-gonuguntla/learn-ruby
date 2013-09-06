@@ -53,9 +53,9 @@ Make sure to download lucid version of libsql package.
 Now install libsqlite and libsqlite-dev.
 =>
 Now run "rvm requirements" to install Ruby Dependencies.
-=>
-Install Ruby 1.9.3-p3392 by running the following command
 
+Install Ruby 1.9.3-p3392 by running the following command
+===============================================================
 "rvm install 1.9.3-p392"
 
 
